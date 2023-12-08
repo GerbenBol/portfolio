@@ -10875,6 +10875,9 @@ p {
   border-radius: 100%;
 }
 
+#navname {
+  font-family: "Sacramento";
+}
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -10942,6 +10945,14 @@ p {
     margin-right: 0;
   }
 }
+.vr {
+    margin: 4px 0;
+    padding: 1px;
+    padding-bottom: 150px;
+    height: max-content;
+    border-radius: 10px;;
+    opacity: 1;
+}
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -10954,17 +10965,19 @@ header.masthead {
   background-size: cover;
 }
 header.masthead .masthead-subheading {
+  text-align: left;
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
-  margin-bottom: 25px;
+  margin-top: auto;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
+  text-align: right;
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
-  margin-bottom: 2rem;
+  margin: auto;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -10983,7 +10996,7 @@ header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 }
 #portfolio .portfolio-item {
