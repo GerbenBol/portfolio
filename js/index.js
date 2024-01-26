@@ -17,4 +17,4 @@ else if (mold == mnew)
     if (dold > dnew)
         age--;
 
-document.getElementById("about-text").innerHTML = "A " + age + " year old programmer with a passion for games, that's who I, Gerben Bol, am. I've played a bunch, from racing games to souls-likes, and now I want to create my own, to let others experience that enjoyment I get from playing."
+document.getElementById("about-text").innerHTML += "A " + age + " year old Dutch programmer with a passion for games, that's who I, Gerben Bol, am. I've played a bunch, from racing games to souls-likes, which inspired me to create my own, to let others experience that enjoyment I get from playing.<br />Aside from school projects, I sometimes create small games in my free time, because I enjoy doing it. For example, I've made a small remake of a game that was pretty popular a while back, called 'Suika Game'. I'm currently working on a side project known to me as Project HM, which is a rhythm game."
