@@ -16,5 +16,18 @@ function FillSite() {
     document.getElementsByTagName("title")[0].innerHTML = project.name + " - Gerben Bol";
     document.getElementById("proj-name").innerHTML = project.name;
     document.getElementsByTagName("video")[0].innerHTML = "<source src='assets/vid/" + project.vid + "'>";
+
+    if (project.intro == "") {
+        document.getElementById("intro").innerHTML = "<img src='assets/img/projects/" + project.img + "' width=300>";
+        document.getElementById("desc").innerHTML = project.desc; // !!!!!!!!
+    } else {
+        document.getElementById("intro").innerHTML = "<p>" + project.intro + "</p>";
+        document.getElementById("desc").innerHTML = "<div class='col-md-6'>" +
+            "<p class='text-center'>" + project.desc + "</p>" +
+            "</div><div class='col-md-4'>" +
+            "<div><img src='assets/img/projects/" + project.img + "' width=300></div></div>";
+    }
+
     document.getElementById("desc").innerHTML = project.desc;
+    document.getElementById("mywork").innerHTML = project.mywork;
 }

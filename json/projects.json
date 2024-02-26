@@ -1,8 +1,8 @@
 [
-    { "id" : "delorean-dash", "name" : "DeLorean Dash", "vid" : "Video zonder titel ‐ Gemaakt met Clipchamp.mp4", "img": "", "desc" : "", "info" : "", "mywork" : "" },
-    { "id" : "ball-game", "name" : "Untitled Ball Game", "vid" : "", "img": "", "desc" : "", "info" : "", "mywork" : "" },
-    { "id" : "twinstick", "name" : "TwinStick", "vid" : "", "img": "", "desc" : "", "info" : "", "mywork" : "" },
-    { "id" : "qoute", "name" : "Qoute", "vid" : "", "img": "", "desc" : "", "info" : "", "mywork" : "" },
-    { "id" : "npc-system", "name" : "NPC System", "vid" : "", "img": "", "desc" : "", "info" : "", "mywork" : "" },
-    { "id" : "metronome-labyrinth", "name" : "Metronome Labyrinth", "vid" : "", "img": "", "desc" : "", "info" : "", "mywork" : "" }
+    { "id" : "delorean-dash", "name" : "DeLorean Dash", "vid" : "deloreandash.mp4", "img": "deloreandash.png", "intro" : "wa", "desc" : "", "mywork" : "" },
+    { "id" : "ball-game", "name" : "Untitled Ball Game", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" },
+    { "id" : "twinstick", "name" : "TwinStick", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" },
+    { "id" : "qoute", "name" : "Qoute", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" },
+    { "id" : "npc-system", "name" : "NPC System", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" },
+    { "id" : "metronome-labyrinth", "name" : "Metronome Labyrinth", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" }
 ]
