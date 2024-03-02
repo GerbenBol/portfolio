@@ -1,8 +1,65 @@
 [
-    { "id" : "delorean-dash", "name" : "DeLorean Dash", "vid" : "deloreandash.mp4", "img": "deloreandash.png", "intro" : "wa", "desc" : "", "mywork" : "" },
-    { "id" : "ball-game", "name" : "Untitled Ball Game", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" },
-    { "id" : "twinstick", "name" : "TwinStick", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" },
-    { "id" : "qoute", "name" : "Qoute", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" },
-    { "id" : "npc-system", "name" : "NPC System", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" },
-    { "id" : "metronome-labyrinth", "name" : "Metronome Labyrinth", "vid" : "", "img": "", "intro" : "", "desc" : "", "mywork" : "" }
+    {
+        "id" : "delorean-dash", "name" : "DeLorean Dash", "vid" : "deloreandash.mp4", "img": "deloreandash.png",
+        "intro" : "One of the larger projects I've done, DeLorean Dash is a racing game. It is a gravity-defying synthwave-inspired racer, in which you race against your previous best record. With a group consisting of 3 developers and 3 artists, we had to communicate a lot, and work with GIT correctly.",
+        "desc" : "How do you make a racing game fun? This was the question we were facing when we started working on what would become 'DeLorean Dash'. We ended up thinking of an idea where the player would have no real sense of what was up and what was down. The car would be able to drive on walls and ceilings, effectively making everything a floor.<br>We also came up with a gravity flip system where the car would have to flip to stay on the track. Players can race against their own ghost of their personal best, and keep getting better.",
+        "mywork" : [
+            "Personal Best",
+            "Ghost",
+            "UI & Menu's",
+            "Camera Movement",
+            "Checkpoints"
+        ]
+    },
+    {
+        "id" : "ball-game", "name" : "Untitled Ball Game", "vid" : "", "img": "",
+        "intro" : "A small game I made for fun, based off of a game called 'Suika Game'. You drop different kind of objects from ball games (think of footballs and soccer balls) which merge into a larger object when colliding with an identical object.",
+        "desc" : "Remaking a game looks easy, and sometimes is. I made this game in a couple of days, and while it isn't bug-free, I'm satisfied with the result.<br>The idea for this game randomly came to me, and I don't really know why, but I immediately felt like making it. So I did, and it was fun.",
+        "mywork" : [
+            "Object Merging",
+            "Line of Death"
+        ]
+    },
+    {
+        "id" : "twinstick", "name" : "TwinStick", "vid" : "", "img": "",
+        "intro" : "",
+        "desc" : "",
+        "mywork" : [
+            "Player Movement",
+            "Enemy Behavior",
+            "Keycard System",
+            "Level Transitions",
+            "UI & Menu's"
+        ]
+    },
+    {
+        "id" : "qoute", "name" : "Qoute", "vid" : "", "img": "",
+        "intro" : "",
+        "desc" : "",
+        "mywork" : [
+            "Store in Database",
+            "Get from Database",
+            "Update",
+            "Delete"
+        ]
+    },
+    {
+        "id" : "npc-system", "name" : "NPC System", "vid" : "", "img": "",
+        "intro" : "",
+        "desc" : "",
+        "mywork" : [
+            ""
+        ]
+    },
+    {
+        "id" : "metronome-labyrinth", "name" : "Metronome Labyrinth", "vid" : "", "img": "",
+        "intro" : "A game jam with the theme: Metronome! I thought it would be pretty cool to make a moving labyrinth where the player moves on the beat, like in Crypt of the Necrodancer. It wasn't completely done before time was over, but I was honestly pretty satisfied with how far I got with the limited time.",
+        "desc" : "While brainstorming I thought about 'Crypt of the Necrodancer', but how would I make it not a full-on knock-off? But then, suddenly Labyrinth the board game popped in my head, and I thought it would be pretty cool if the labyrinth would change every so often, instead of a player moving it.<br>In the end, I didn't get to completely implement that, it can only push 1 column down. Something that was also not done was my original plan of a randomized labyrinth at the start of the level, as it was too much work. Overall it was a pretty nice project, which I enjoyed.",
+        "mywork" : [
+            "Player Movement",
+            "Movement Buffering",
+            "Metronome Sound",
+            "Labyrinth Move"
+        ]
+    }
 ]

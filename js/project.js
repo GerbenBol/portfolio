@@ -1,5 +1,9 @@
 let project;
 
+fetch('/json/projects.json')
+    .then((r) => r.json())
+    .then((json) => StoreProject(json));
+
 function StoreProject(json) {
     for (let i = 0; i < json.length; i++)
         if (json[i].id == location.href.split('=')[1])
@@ -8,26 +12,55 @@ function StoreProject(json) {
     FillSite();
 }
 
-fetch('/json/projects.json')
-    .then((r) => r.json())
-    .then((json) => StoreProject(json));
-
 function FillSite() {
     document.getElementsByTagName("title")[0].innerHTML = project.name + " - Gerben Bol";
     document.getElementById("proj-name").innerHTML = project.name;
     document.getElementsByTagName("video")[0].innerHTML = "<source src='assets/vid/" + project.vid + "'>";
+    let intro = document.getElementById("intro");
+    let desc = document.getElementById("desc");
 
     if (project.intro == "") {
-        document.getElementById("intro").innerHTML = "<img src='assets/img/projects/" + project.img + "' width=300>";
-        document.getElementById("desc").innerHTML = project.desc; // !!!!!!!!
+        intro.innerHTML = "<img src='assets/img/projects/" + project.img + "' width=300>";
+        desc.innerHTML = "<div class='text-center' id='desc-par'><p id='desc-text'>" + project.desc + "</p></div>";
     } else {
-        document.getElementById("intro").innerHTML = "<p>" + project.intro + "</p>";
-        document.getElementById("desc").innerHTML = "<div class='col-md-6'>" +
-            "<p class='text-center'>" + project.desc + "</p>" +
-            "</div><div class='col-md-4'>" +
+        intro.innerHTML = "<p class='text-center' id='intro-text'>" + project.intro + "</p>";
+        desc.innerHTML = "<div class='col-md-6' id='desc-par'>" +
+            "<p class='text-center' id='desc-text'>" + project.desc + "</p>" +
+            "</div><div class='col-md-6'>" +
             "<div><img src='assets/img/projects/" + project.img + "' width=300></div></div>";
     }
 
-    document.getElementById("desc").innerHTML = project.desc;
-    document.getElementById("mywork").innerHTML = project.mywork;
+    let introtxt = document.getElementById("intro-text");
+    let intropar = document.getElementById("intro-par");
+    let desctxt = document.getElementById("desc-text");
+    let descpar = document.getElementById("desc-par");
+
+    if (introtxt != undefined && introtxt != null) {
+        let iheight = introtxt.offsetHeight;
+        introtxt.style.marginTop = (intropar.offsetHeight - iheight) / 2 + "px";
+    }
+
+    setTimeout(() => {
+        let dheight = desctxt.offsetHeight;
+        desctxt.style.marginTop = (descpar.offsetHeight - dheight) / 2 + "px";
+    }, 100);
+
+    let mywork = document.getElementById("mywork");
+
+    for (let i = 0; i < project.mywork.length; i++) {
+        let add = "";
+
+        if (project.mywork[i + 1] == null && i % 2 == 0) {
+            add += "<div class='col-md-3'></div><div class='col-md-6' id='mw" + i + "'><p class='text-center'>";
+            add += project.mywork[i] + "</p></div>";
+        } else {
+            add += "<div class='col-md-5' id='mw" + i + "'><p class='text-center'>";
+            add += project.mywork[i] + "</p></div><div class='col-md-2'></div>";
+        }
+
+        if (i % 2 != 0)
+            add = add.substring(0, add.length - 28);
+
+        mywork.innerHTML += add;
+    }
 }
