@@ -22,8 +22,8 @@
     },
     {
         "id" : "twinstick", "name" : "TwinStick", "vid" : "", "img": "",
-        "intro" : "",
-        "desc" : "",
+        "intro" : "The first game I finished, TwinStick is a top down shooter. With a group that was a little bit dramatic, we still ended up with a pretty good game. It's a game where you control a good robot. You need to find keycards to retrieve the files that are on the top floor. Finding these keycards will allow you to open new doors, but watch out! Your enemies also have robots in this building, surveilling the area, and they are not afraid to kill to defend their secrets.",
+        "desc" : "TwinStick is, as the name suggests, a game where you use both joysticks (or WASD/arrow keys + mouse). We only had support for mouse + keyboard, but the concept was the same thing. You would need to find all the keycards in the level before moving on to the next level. In these levels would be enemies patrolling, and they will try to stop you.<br>Finding new guns can allow you to get through the levels faster, and will make the game easier at that. But don't worry, as you make progress in the game, the enemies will also become stronger.",
         "mywork" : [
             "Player Movement",
             "Enemy Behavior",
@@ -34,8 +34,8 @@
     },
     {
         "id" : "qoute", "name" : "Qoute", "vid" : "", "img": "",
-        "intro" : "",
-        "desc" : "",
+        "intro" : "Have you ever wanted to store quotes from your friends or colleagues in a small database? Well, I've made a Discord bot which makes it super easy to do just that! A super easy system that makes storing a quote, together with its year of origin and quoted easy and quick.",
+        "desc" : "This project came a bit out of the blue for me, but in a server with my friends we have a 'quotes' channel. In this channel, as becomes pretty clear from the name, we store quotes of everyone. But at some point the pins got full, so I decided I would make a small Discord bot that worked for this.<br>It was a small project, but nonetheless fun. It was about a weeks worth of work, which was at school and at home as well. It's now on a virtual machine at my home, however the machine resets itself a lot and I don't bother checking on it enough.<br>The bot contains 5 functions: 'add-quote', 'get-quote', 'all-quotes', 'update-quote' and 'delete-quote'. Most of them do exactly as they sound, but 'get-quote' has some specific parameters that can define how the bot searches. It can be used with 0 parameters, which will return a random quote. It can be used with an id as parameter, which will return the quote with the given id. It can also be used with a query as parameter, which will return a random quote which contains the query.",
         "mywork" : [
             "Store in Database",
             "Get from Database",
