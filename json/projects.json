@@ -12,14 +12,14 @@
         ]
     },
     {
-        "id" : "ball-game", "name" : "Untitled Ball Game", "img": "", "vid" : "", "gif" : "",
+        "id" : "ball-game", "name" : "Untitled Ball Game", "img": "", "vid" : "untitled_ball_game.mp4", "gif" : "",
         "intro" : "A small game I made for fun, based off of a game called 'Suika Game'. You drop different kind of objects from ball games (think of footballs and soccer balls) which merge into a larger object when colliding with an identical object.",
-        "desc" : "Remaking a game looks easy, and sometimes is. I made this game in a couple of days, and while it isn't bug-free, I'm satisfied with the result.<br>The idea for this game randomly came to me, and I don't really know why, but I immediately felt like making it. So I did, and it was fun.",
+        "desc" : "Remaking a game looks easy, and sometimes is. I made this game in a couple of days, and while it isn't bug-free, I'm pretty satisfied with the result.<br>The idea for this game randomly came to me, and I don't really know why, but I immediately felt like making it. So I did, and it was fun. Maybe some day I will find the urge to fix the bugs, but until that this game will stay as it is. If I do come back to fix bugs, I would also like a point system, counting points for merges.",
         "mywork" : [
-            "<strong>Object Merging</strong><br>",
-            "<strong>Line of Death</strong><br>",
-            "<strong>Random Balls</strong><br>",
-            "<strong>Show Next Object</strong><br>"
+            "<strong>Object Merging</strong><br>So in this game, when two of the same objects touch each other, they merge. This was probably the hardest feature to code, because it can go wrong in so many ways (and it still does). Sometimes it merges 3 objects instead of 2, or it might consume a lot more and become an incorrect size.",
+            "<strong>Line of Death</strong><br>This was another of the features I struggled with for a bit. It is the line that detects objects at the top, and if they're there for too long, the game is over. It took trial and error, but I eventually got it right, though the long detection might allow people to cheat.",
+            "<strong>Random Balls</strong><br>The randomised balls wasn't all that hard, but it still had to be done. It is a small script that chooses 1 of 3 balls that are able to be spawned.",
+            "<strong>Show Next Object</strong><br>A feature very closely related to the randomised objects, the show next object makes sure the player knows what ball is coming up next."
         ]
     },
     {
@@ -50,7 +50,9 @@
         "intro" : "A small program that allows one to store their NPC's in a city based system, with a clear view on which characters are in that city. It also has the feature to store a stat block, for if you want your players to be able to fight the NPC, this makes it a lot easier. The system was made specifically for D&D, for DM's, by a DM.",
         "desc" : "This system was an idea that came from me and a friend of mine. We're both Dungeon Masters, and were struggling with remembering our NPC's. Every time we made a new NPC we had troubles: 'where do I write down the name, where they can be found, what their stats are, etcetera, and be able to find it back?'<br>Suddenly I thought of a small system in WinForms, which would store all that information locally. It made so much sense, and I immediately got to work. In a few days, I had this small, easy system that would do what I intended, storing info about NPC's.",
         "mywork" : [
-            ""
+            "<strong>Create City</strong><br>",
+            "<strong>Create NPC</strong><br>",
+            "<strong>Make Stat Block</strong><br>"
         ]
     },
     {

@@ -31,10 +31,18 @@ function FillSite() {
         desc.innerHTML = "<div class='text-center' id='desc-par'><p id='desc-text'>" + project.desc + "</p></div>";
     } else {
         intro.innerHTML = "<p class='text-center' id='intro-text'>" + project.intro + "</p>";
-        desc.innerHTML = "<div class='col-md-6' id='desc-par'>" +
-            "<p class='text-center' id='desc-text'>" + project.desc + "</p>" +
-            "</div><div class='col-md-6'>" +
-            "<div><img src='assets/img/projects/" + project.img + "' width=300 id='justanimg'></div></div>";
+        let descHTML = "";
+
+        if (project.img != "") {
+            descHTML = "<div class='col-md-6' id='desc-par'>" +
+                "<p class='text-center' id='desc-text'>" + project.desc + "</p>" +
+                "</div><div class='col-md-6'>" +
+                "<div><img src='assets/img/projects/" + project.img + "' width=300 id='justanimg'></div></div>";
+        } else {
+            descHTML = "<div class='col-md-2'></div><div class='col-md-8'><p class='text-center' id='desc-text'>" + project.desc + "</p></div>";
+        }
+
+        desc.innerHTML = descHTML;
     }
 
     let introtxt = document.getElementById("intro-text");
