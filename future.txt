@@ -1,0 +1,4 @@
+what's next:
+- qoute video + img + logo
+- full new projects page
+- full new about me page (with more, such as hobbies and skills etc.)
