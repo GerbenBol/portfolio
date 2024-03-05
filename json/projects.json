@@ -50,9 +50,9 @@
         "intro" : "A small program that allows one to store their NPC's in a city based system, with a clear view on which characters are in that city. It also has the feature to store a stat block, for if you want your players to be able to fight the NPC, this makes it a lot easier. The system was made specifically for D&D, for DM's, by a DM.",
         "desc" : "This system was an idea that came from me and a friend of mine. We're both Dungeon Masters, and were struggling with remembering our NPC's. Every time we made a new NPC we had troubles: 'where do I write down the name, where they can be found, what their stats are, etcetera, and be able to find it back?'<br>Suddenly I thought of a small system in WinForms, which would store all that information locally. It made so much sense, and I immediately got to work. In a few days, I had this small, easy system that would do what I intended, storing info about NPC's.",
         "mywork" : [
-            "<strong>Create City</strong><br>",
-            "<strong>Create NPC</strong><br>",
-            "<strong>Make Stat Block</strong><br>"
+            "<strong>Create City</strong><br>I made a system that would allow the user to create their own cities. They could see all NPC's they added to that city, by simply clicking the cities' name in the dropdown menu on the main form.",
+            "<strong>Create NPC</strong><br>Of course, an NPC system needs the feature to store NPC's. There are quite a few options in this form. NPC name, description, notes, where they can be found and their stat block.",
+            "<strong>Make Stat Block</strong><br>I made this app specifically for D&D 5e, so I didn't look at other stats outside of Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma. It also uses the D&D system, so a 10 has a +0 modifier, while a 4 has a -3 modifier. For NPC's you usually use the standard modifiers, even if it's for one of the skills."
         ]
     },
     {
@@ -60,10 +60,10 @@
         "intro" : "A game jam with the theme: Metronome! I thought it would be pretty cool to make a moving labyrinth where the player moves on the beat, like in Crypt of the Necrodancer. It wasn't completely done before time was over, but I was honestly pretty satisfied with how far I got with the limited time.",
         "desc" : "While brainstorming I thought about 'Crypt of the Necrodancer', but how would I make it not a full-on knock-off? But then, suddenly Labyrinth the board game popped in my head, and I thought it would be pretty cool if the labyrinth would change every so often, instead of a player moving it.<br>In the end, I didn't get to completely implement that, it can only push 1 column down. Something that was also not done was my original plan of a randomized labyrinth at the start of the level, as it was too much work. Overall it was a pretty nice project, which I enjoyed.",
         "mywork" : [
-            "<strong>Player Movement</strong><br>",
-            "<strong>Movement Buffering</strong><br>",
-            "<strong>Metronome Sound</strong><br>",
-            "<strong>Labyrinth Move</strong><br>"
+            "<strong>Player Movement</strong><br>One of the things I did differently in this project, was using the new input system. It's pretty different, but after using it for a little, it's easy to get used to it.",
+            "<strong>Movement Buffering</strong><br>In this game, the player moves on the rhythm. Of course, it is pretty hard to do this perfectly. So, I made a buffer system. It buffers up to 2 inputs, and executes the first on the next frame.",
+            "<strong>Metronome Sound</strong><br>This was pretty easy to make, I only had to find some audio files that I liked enough to use. Then, after writing a small script that implements that and getting some UI to work with the ticks. The UI unfortunately doesn't work as I intended it to do.",
+            "<strong>Labyrinth Move</strong><br>This was one of the most important features, and I unfortuantely didn't have enough time/skills to make it work properly. I wanted a randomised maze at the start, and the maze would move to the left, right, up and down. Unfortunately, I only got the move down to work. I did spend a bit of time on the randomised maze, until I found out that my perfectionism got in the way of getting it good enough, as it would take me quite some time to get it the way I wanted."
         ]
     }
 ]
