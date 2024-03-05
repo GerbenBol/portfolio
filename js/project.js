@@ -37,7 +37,7 @@ function FillSite() {
             descHTML = "<div class='col-md-6' id='desc-par'>" +
                 "<p class='text-center' id='desc-text'>" + project.desc + "</p>" +
                 "</div><div class='col-md-6'>" +
-                "<div><img src='assets/img/projects/" + project.img + "' width=300 id='justanimg'></div></div>";
+                "<div><img src='assets/img/projects/" + project.img + "' width='" + project.imgwidth + "' id='justanimg'></div></div>";
         } else {
             descHTML = "<div class='col-md-2'></div><div class='col-md-8'><p class='text-center' id='desc-text'>" + project.desc + "</p></div>";
         }
