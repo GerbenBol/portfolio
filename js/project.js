@@ -10,7 +10,8 @@ function StoreProject(json) {
         if (json[i].id == location.href.split('=')[1])
             project = json[i];
 
-    FillSite();
+    setTimeout(FillSite(), 300);
+    
 }
 
 function FillSite() {
@@ -59,7 +60,7 @@ function FillSite() {
     
         let dheight = desctxt.offsetHeight;
         desctxt.style.marginTop = (descpar.offsetHeight - dheight) / 2 + "px";
-    }, 100);
+    }, 500);
 
     let mywork = document.getElementById("mywork");
 
