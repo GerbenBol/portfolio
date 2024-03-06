@@ -2,7 +2,7 @@ let project;
 let link = "https://gerbenbol.github.io/portfolio/json/projects.json"
 
 console.log(link);
-document.getElementById("page-top").innerHTML = link;
+//document.getElementById("page-top").innerHTML = link;
 
 fetch(link)
     .then((r) => r.json())
