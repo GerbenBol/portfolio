@@ -1,6 +1,6 @@
 let project;
 
-fetch('https://gerbenbol.github.io/portfolio/json/projects.json')
+fetch('../json/projects.json')
     .then((r) => r.json())
     .then((json) => StoreProject(json));
 
