@@ -1,6 +1,9 @@
 let project;
+let link = "http://gerbenbol.github.io/portfolio/json/projects.json"
 
-fetch('http://gerbenbol.github.io/portfolio/json/projects.json')
+console.log(link);
+
+fetch(link)
     .then((r) => r.json())
     .then((json) => StoreProject(json));
 
