@@ -1,6 +1,6 @@
 let project;
 
-fetch('./json/projects.json')
+fetch('/portfolio/json/projects.json')
     .then((r) => r.json())
     .then((json) => StoreProject(json));
 
