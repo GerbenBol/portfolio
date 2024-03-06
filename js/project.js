@@ -1,5 +1,5 @@
 let project;
-let link = "http://gerbenbol.github.io/portfolio/json/projects.json"
+let link = "https://gerbenbol.github.io/portfolio/json/projects.json"
 
 console.log(link);
 
