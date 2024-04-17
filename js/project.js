@@ -19,7 +19,7 @@ function FillSite() {
     let vidgif = document.getElementById("vidgif");
 
     if (project.vid != "") {
-        vidgif.innerHTML = "<video width='700' controls><source src='assets/vid/" + project.vid + "'></video>";
+        vidgif.innerHTML = "<video width='700' controls><source src='https://gerbenbol.github.io/portfolio/assets/vid/" + project.vid + "'></video>";
     } else if (project.gif != "") {
         vidgif.innerHTML = "<img width='700' src='assets/vid/" + project.gif + "'>";
     }
