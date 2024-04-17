@@ -1,3 +1,8 @@
 #about-text {
     margin: auto 0;
 }
+
+.centered-button {
+    margin: 25px auto;
+    width: 30%;
+}

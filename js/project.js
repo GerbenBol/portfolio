@@ -11,7 +11,6 @@ function StoreProject(json) {
             project = json[i];
 
     setTimeout(FillSite(), 300);
-    
 }
 
 function FillSite() {
