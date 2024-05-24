@@ -80,3 +80,7 @@ function FillSite() {
         mywork.innerHTML += add;
     }
 }
+
+function FixFormatting() {
+    
+}

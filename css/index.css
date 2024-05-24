@@ -4,5 +4,5 @@
 
 .centered-button {
     margin: 25px auto;
-    width: 30%;
+    width: max-content;
 }

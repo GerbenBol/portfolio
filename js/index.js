@@ -15,7 +15,7 @@ else if (mold == mnew)
     if (dold > dnew)
         age--;
 
-document.getElementById("about-text").innerHTML +=
+document.getElementById("about-text-here").innerHTML +=
     "A " + age + " year old Dutch programmer with a passion for games, that's who I, Gerben Bol, am. " +
     "I've played a bunch, from racing games to platformers to rhythm games, which inspired me to create my own, " +
     "to let others experience that enjoyment I get from playing.<br />Aside from school projects, " +
