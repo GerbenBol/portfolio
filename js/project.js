@@ -59,7 +59,7 @@ function FillSite() {
     
         let dheight = desctxt.offsetHeight;
         desctxt.style.marginTop = (descpar.offsetHeight - dheight) / 2 + "px";
-    }, 500);
+    }, 650);
 
     let mywork = document.getElementById("mywork");
 
@@ -79,8 +79,4 @@ function FillSite() {
 
         mywork.innerHTML += add;
     }
-}
-
-function FixFormatting() {
-    
 }
