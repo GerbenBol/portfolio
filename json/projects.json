@@ -1,6 +1,6 @@
 [
     {
-        "id" : "delorean-dash", "name" : "DeLorean Dash", "img": "deloreandash.png", "imgwidth" : "300", "vid" : "", "gif" : "deloreandash.gif",
+        "id" : "delorean-dash", "name" : "DeLorean Dash", "img" : "deloreandash.png", "imgwidth" : "300", "vid" : "", "gif" : "deloreandash.gif",
         "intro" : "One of the larger projects I've done, DeLorean Dash is a racing game. It is a gravity-defying synthwave-inspired racer, in which you race against your previous best record. With a group consisting of 3 developers and 3 artists, we had to communicate a lot, and work with GIT correctly.",
         "desc" : "How do you make a racing game fun? This was the question we were facing when we started working on what would become 'DeLorean Dash'. We ended up thinking of an idea where the player would have no real sense of what was up and what was down. The car would be able to drive on walls and ceilings, effectively making everything a floor.<br>We also came up with a gravity flip system where the car would have to flip to stay on the track. Players can race against the ghost of their personal best, and keep getting better.",
         "mywork" : [
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "id" : "ball-game", "name" : "Untitled Ball Game", "img": "", "imgwidth" : "", "vid" : "", "gif" : "untitled_ball_game.gif",
+        "id" : "ball-game", "name" : "Untitled Ball Game", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "untitled_ball_game.gif",
         "intro" : "A small game I made for fun, based off of a game called 'Suika Game'. You drop different kind of objects from ball games (think of footballs and soccer balls) which merge into a larger object when colliding with an identical object.",
         "desc" : "Remaking a game looks easy, and sometimes is. I made this game in a couple of days, and while it isn't bug-free, I'm pretty satisfied with the result.<br>The idea for this game randomly came to me, and I don't really know why, but I immediately felt like making it. So I did, and it was fun. Maybe some day I will find the urge to fix the bugs, but until that this game will stay as it is. If I do come back to fix bugs, I would also like a point system, counting points for merges.",
         "mywork" : [
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id" : "twinstick", "name" : "TwinStick", "img": "", "imgwidth" : "", "vid" : "", "gif" : "twinstick.gif",
+        "id" : "twinstick", "name" : "TwinStick", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "twinstick.gif",
         "intro" : "The first game I finished, TwinStick is a top down shooter. It's a game where you control a good robot. You need to find keycards to retrieve the files that are on the top floor. Finding these keycards will allow you to open new doors, but watch out! Your enemies also have robots in this building, surveilling the area, and they are not afraid to kill to defend their secrets.",
         "desc" : "TwinStick is, as the name suggests, a game where you use both joysticks (or WASD/arrow keys + mouse). We only had support for mouse + keyboard, but the concept was the same thing. You would need to find all the keycards in the level before moving on to the next level. In these levels would be enemies patrolling, and they will try to stop you.<br>Finding new guns can allow you to get through the levels faster, and will make the game easier at that. But don't worry, as you make progress in the game, the enemies will also become stronger. With a group that was a little bit dramatic, we still ended up with a pretty good game.",
         "mywork" : [
@@ -35,7 +35,7 @@
         ]
     },
     {
-        "id" : "qoute", "name" : "Qoute", "img": "", "imgwidth" : "", "vid" : "", "gif" : "",
+        "id" : "qoute", "name" : "Qoute", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "",
         "intro" : "Have you ever wanted to store quotes from your friends or colleagues in a small database? Well, I've made a Discord bot which makes it super easy to do just that! A super easy system that makes storing a quote, together with its year of origin and quoted easy and quick.",
         "desc" : "This project came a bit out of the blue for me, but in a server with my friends we have a 'quotes' channel. In this channel, as becomes pretty clear from the name, we store quotes of everyone. But at some point the pins got full, so I decided I would make a small Discord bot that worked for this.<br>It was a small project, but nonetheless fun. It was about a week's worth of work, which was at school and at home as well. It's now on a virtual machine at my home, however the machine resets itself a lot and I don't bother checking on it enough.<br>The bot contains 5 functions: 'add-quote', 'get-quote', 'all-quotes', 'update-quote' and 'delete-quote'. Most of them do exactly as they sound, but 'get-quote' has some specific parameters that can define how the bot searches. It can be used with 0 parameters, which will return a random quote. It can be used with an id as parameter, which will return the quote with the given id. It can also be used with a query as parameter, which will return a random quote which contains the query.",
         "mywork" : [
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "id" : "npc-system", "name" : "NPC System", "img": "", "imgwidth" : "", "vid" : "", "gif" : "npcsystem.gif",
+        "id" : "npc-system", "name" : "NPC System", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "npcsystem.gif",
         "intro" : "A small program that allows one to store their NPC's in a city based system, with a clear view on which characters are in that city. It also has the feature to store a stat block, for if you want your players to be able to fight the NPC, this makes it a lot easier. The system was made specifically for D&D, for DM's, by a DM.",
         "desc" : "This system was an idea that came from me and a friend of mine. We're both Dungeon Masters, and were struggling with remembering our NPC's. Every time we made a new NPC we had troubles: 'where do I write down the name, where they can be found, what their stats are, etcetera, and be able to find it back?'<br>Suddenly I thought of a small system in WinForms, which would store all that information locally. It made so much sense, and I immediately got to work. In a few days, I had this small, easy system that would do what I intended, storing info about NPC's.",
         "mywork" : [
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "id" : "metronome-labyrinth", "name" : "Metronome Labyrinth", "img": "metronomelabyrinth.png", "imgwidth" : "500", "vid" : "", "gif" : "metronomemaze.gif",
+        "id" : "metronome-labyrinth", "name" : "Metronome Labyrinth", "img" : "metronomelabyrinth.png", "imgwidth" : "500", "vid" : "", "gif" : "metronomemaze.gif",
         "intro" : "A game jam with the theme: Metronome! I thought it would be pretty cool to make a moving labyrinth where the player moves on the beat, like in Crypt of the Necrodancer. It wasn't completely done before time was over, but I was honestly pretty satisfied with how far I got with the limited time.",
         "desc" : "While brainstorming I thought about 'Crypt of the Necrodancer', but how would I make it not a full-on knock-off? But then, suddenly Labyrinth the board game popped in my head, and I thought it would be pretty cool if the labyrinth would change every so often, instead of a player moving it.<br>In the end, I didn't get to completely implement that, it can only push 1 column down. Something that was also not done was my original plan of a randomized labyrinth at the start of the level, as it was too much work. Overall it was a pretty nice project, which I enjoyed.",
         "mywork" : [
@@ -64,6 +64,14 @@
             "<strong>Movement Buffering</strong><br>In this game, the player moves on the rhythm. Of course, it is pretty hard to do this perfectly. So, I made a buffer system. It buffers up to 2 inputs, and executes the first on the next frame.",
             "<strong>Metronome Sound</strong><br>This was pretty easy to make, I only had to find some audio files that I liked enough to use. Then, after writing a small script that implements that and getting some UI to work with the ticks. The UI unfortunately doesn't work as I intended it to do.",
             "<strong>Labyrinth Move</strong><br>This was one of the most important features, and I unfortuantely didn't have enough time/skills to make it work properly. I wanted a randomised maze at the start, and the maze would move to the left, right, up and down. Unfortunately, I only got the move down to work. I did spend a bit of time on the randomised maze, until I found out that my perfectionism got in the way of getting it good enough, as it would take me quite some time to get it the way I wanted."
+        ]
+    },
+    {
+        "id" : "small-feesh", "name" : "Small Feesh, Big World.", "img" : "small-feesh.png", "imgwidth" : "500", "vid" : "", "gif" : "small-feesh.gif",
+        "intro" : "",
+        "desc" : "",
+        "mywork" : [
+            ""
         ]
     }
 ]
