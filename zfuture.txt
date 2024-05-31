@@ -1,7 +1,7 @@
 what's next:
 - qoute video + img + logo
-- full new portfolio page (including subheaders for games, web, software)
 - full new about me page (with more, such as hobbies and skills etc.)
 
-fix image sfbw
 qoute -> unboxr
+metronome labyrinth -> powerpaint
+update portfolio page
