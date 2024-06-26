@@ -1,5 +1,5 @@
 let project;
-let link = "../json/projects.json";
+let link = "../json/projects.json";// https://gerbenbol.github.io/portfolio/assets/json/projects.json
 
 fetch(link)
     .then((r) => r.json())
