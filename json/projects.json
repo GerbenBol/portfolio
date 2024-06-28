@@ -78,14 +78,22 @@
         ]
     },
     {
-        "id" : "unboxr", "name" : "Unboxr", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "",
+        "id" : "unboxr", "name" : "Unboxr", "img" : "unboxr.png", "imgwidth" : "", "vid" : "", "gif" : "unboxr.gif",
         "intro" : "Unboxr is a game where you organize boxes by putting them in the correct spot. It is a short puzzle game I created all on my own.",
-        "desc" : "In this project I put together a contract with teachers, with a strict deadline which I had to follow closely. My grade was dependent on how well I made the described game. So, I had to make exactly what I had written down in the contract, not just what I wanted to make and add.<br><br><strong>Project Duration:</strong> 4 weeks<br><strong>Project Type:</strong> School Project<br><strong>Group Size:</strong> 1, just me alone<br><strong>Tools Used:</strong> Unity with C#, Git using Fork, Visual Studio, Blender",
+        "desc" : "In this project I put together a contract with the teachers, with a strict deadline which I had to follow closely. My grade was dependent on how well I made the described game. So, I had to make exactly what I had written down in the contract, not just what I wanted to make and add.<br><br><strong>Project Duration:</strong> 4 weeks<br><strong>Project Type:</strong> School Project<br><strong>Group Size:</strong> 1, just me alone<br><strong>Tools Used:</strong> Unity with C#, Git using Fork, Visual Studio, Blender",
         "mywork" : [
             "<strong>Player Movement</strong><br>Making the movement using the new input system wasn't as easy as using the old system. I ran into a couple things, such as a input listener not listening, which I found out is normal. It took me a while to fix this problem, and I did lose quite a bit on that. The player can still make themselves fly by taking a box and holding it under themselves, making the body float. Making the camera movement was a bit weird as well, as the new input system uses deltas.",
             "<strong>Interacting with Objects</strong><br>In this project, I also challenged myself. I needed to make doors and boxes, and it would be easy for me if these interactions were on different keys. But, as a player, I want to be able to press 1 button for all interactions. Thus, I decided to implement an interface called IInteractable, which had the Interact function. In the door objects, it would check if the door was open, and open it if it was. In the boxes it would check if we were already holding the object or if we were trying to drop the object.",
             "<strong>Level/ Puzzle Design</strong><br>I designed the levels and puzzles myself. There were 4 in the entire game, which isn't a lot, and they're not the best nor hardest levels, but they were difficult enough. I playtested with colleagues who didn't play games that often. Some of them had more trouble solving the puzzles than others, so I decided to keep the puzzels as they were, as it was absolutely possible to raise the difficulty as the game went on (if it was ever going to be a full game).",
             "<strong>Game Management</strong><br>I also made the game management. It spawned the next levels in when the current one was completed, which made it so the game wouldn't take forever to load when starting. "
+        ]
+    },
+    {
+        "id" : "upg", "name" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "",
+        "intro" : "",
+        "desc" : "<br><br><strong>Project Duration:</strong> <br><strong>Project Type:</strong> <br><strong>Group Size:</strong> <br><strong>Tools Used:</strong> ",
+        "mywork" : [
+            "<strong></strong><br>"
         ]
     },
     {
