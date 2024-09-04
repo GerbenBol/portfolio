@@ -1,5 +1,10 @@
 let project;
-let link = "../json/projects.json";// https://gerbenbol.github.io/portfolio/assets/json/projects.json
+let link;
+
+if (location.href.substring(8, 9) == "gerbenbol")
+    link = "https://gerbenbol.github.io/portfolio/assets/json/projects.json";
+else
+    link = "../json/projects.json";
 
 fetch(link)
     .then((r) => r.json())
@@ -15,11 +20,17 @@ function StoreProject(json) {
 
 function FillSite() {
     document.getElementsByTagName("title")[0].innerHTML = project.name + " - Gerben Bol";
-    document.getElementById("proj-name").innerHTML = project.name;
+    let projname = document.getElementById("proj-name");
+
+    projname.innerHTML = "<h1 class='section-heading text-uppercase' style='font-size: 4rem;'>" + project.name + "</h1>";
+
+    if (project.nameimg != "")
+        projname.innerHTML = "<img src='assets/img/projects/" + project.nameimg + "' style='width:75%'>";
+
     let vidgif = document.getElementById("vidgif");
 
     if (project.vid != "") {
-        vidgif.innerHTML = "<video width='700' controls><source src='https://gerbenbol.github.io/portfolio/assets/vid/" + project.vid + "'></video>";
+        vidgif.innerHTML = "<iframe width='560' height='315' src='" + project.vid + "'title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>";
     } else if (project.gif != "") {
         vidgif.innerHTML = "<img width='700' src='assets/vid/" + project.gif + "'>";
     }

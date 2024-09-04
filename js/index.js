@@ -21,4 +21,4 @@ document.getElementById("about-text-here").innerHTML +=
     "to let others experience that enjoyment I get from playing.<br />Aside from school projects, " +
     "I sometimes create small games in my free time, because I enjoy doing it. For example, " +
     "I've made a small remake of a game that was pretty popular a while back, called 'Watermelon Game'. " +
-    "I'm currently working on a side project, which is a platformer.";
+    "I'm currently working on a side project, which is a 2D fighting game.";

@@ -1,6 +1,6 @@
 [
     {
-        "id" : "delorean-dash", "name" : "DeLorean Dash", "img" : "deloreandash.png", "imgwidth" : "300", "vid" : "", "gif" : "deloreandash.gif",
+        "id" : "delorean-dash", "name" : "DeLorean Dash", "nameimg" : "", "img" : "deloreandash.png", "imgwidth" : "300", "vid" : "", "gif" : "deloreandash.gif",
         "intro" : "One of the larger projects I've done, DeLorean Dash is a racing game. It is a gravity-defying synthwave-inspired racer, in which you race against your previous best record. With a group consisting of 3 developers and 3 artists, we had to communicate a lot, and work with GIT correctly.",
         "desc" : "How do you make a racing game fun? This was the question we were facing when we started working on what would become 'DeLorean Dash'. We ended up thinking of an idea where the player would have no real sense of what was up and what was down. The car would be able to drive on walls and ceilings, effectively making everything a floor.<br>We also came up with a gravity flip system where the car would have to flip to stay on the track. Players can race against the ghost of their personal best, and keep getting better.<br><br><strong>Project Duration:</strong> 8 weeks<br><strong>Project Type:</strong> Group Project (school)<br><strong>Group Size:</strong> 6 people, 3 developers, 3 artists<br><strong>Tools Used:</strong> Unity with C#, GitHub Desktop, Visual Studio",
         "mywork" : [
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "id" : "ball-game", "name" : "Untitled Ball Game", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "untitled_ball_game.gif",
+        "id" : "ball-game", "name" : "Untitled Ball Game", "nameimg" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "untitled_ball_game.gif",
         "intro" : "A small game I made for fun, based off of a game called 'Suika Game'. You drop different kind of objects from ball games (think of footballs and soccer balls) which merge into a larger object when colliding with an identical object.",
         "desc" : "Remaking a game looks easy, and sometimes is. I made this game in a couple of days, and while it isn't bug-free, I'm pretty satisfied with the result.<br>The idea for this game randomly came to me, and I don't really know why, but I immediately felt like making it. So I did, and it was fun. Maybe some day I will find the urge to fix the bugs, but until that this game will stay as it is. If I do come back to fix bugs, I would also like a point system, counting points for merges.<br><br><strong>Project Duration:</strong> 3 days<br><strong>Project Type:</strong> Personal Project<br><strong>Group Size:</strong> 1, just me alone<br><strong>Tools Used:</strong> Unity with C#, Visual Studio",
         "mywork" : [
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id" : "twinstick", "name" : "TwinStick", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "twinstick.gif",
+        "id" : "twinstick", "name" : "TwinStick", "nameimg" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "twinstick.gif",
         "intro" : "The first game I finished, TwinStick is a top down shooter. It's a game where you control a good robot. You need to find keycards to retrieve the files that are on the top floor. Finding these keycards will allow you to open new doors, but watch out! Your enemies also have robots in this building, surveilling the area, and they are not afraid to kill to defend their secrets.",
         "desc" : "TwinStick is, as the name suggests, a game where you use both joysticks (or WASD/arrow keys + mouse). We only had support for mouse + keyboard, but the concept was the same thing. You would need to find all the keycards in the level before moving on to the next level. In these levels would be enemies patrolling, and they will try to stop you.<br>Finding new guns can allow you to get through the levels faster, and will make the game easier at that. But don't worry, as you make progress in the game, the enemies will also become stronger. With a group that was a little bit dramatic, we still ended up with a pretty good game.<br><br><strong>Project Duration:</strong> 8 weeks<br><strong>Project Type:</strong> Group Project (school)<br><strong>Group Size:</strong> 4 people, 2 developers, 2 artists (of which 1 developer was barely working)<br><strong>Tools Used:</strong> Unity with C#, GitLab, Visual Studio",
         "mywork" : [
@@ -35,7 +35,7 @@
         ]
     },
     {
-        "id" : "qoute", "name" : "Qoute", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "",
+        "id" : "qoute", "name" : "Qoute", "nameimg" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "",
         "intro" : "Have you ever wanted to store quotes from your friends or colleagues in a small database? Well, I've made a Discord bot which makes it super easy to do just that! A super easy system that makes storing a quote, together with its year of origin and quoted easy and quick.",
         "desc" : "This project came a bit out of the blue for me, but in a server with my friends we have a 'quotes' channel. In this channel, as becomes pretty clear from the name, we store quotes of everyone. But at some point the pins got full, so I decided I would make a small Discord bot that worked for this.<br>It was a small project, but nonetheless fun. It was about a week's worth of work, which was at school and at home as well. It's now on a virtual machine at my home, however the machine resets itself a lot and I don't bother checking on it enough.<br>The bot contains 5 functions: 'add-quote', 'get-quote', 'all-quotes', 'update-quote' and 'delete-quote'. Most of them do exactly as they sound, but 'get-quote' has some specific parameters that can define how the bot searches. It can be used with 0 parameters, which will return a random quote. It can be used with an id as parameter, which will return the quote with the given id. It can also be used with a query as parameter, which will return a random quote which contains the query.<br><br><strong>Project Duration:</strong> 1.5 weeks<br><strong>Project Type:</strong> Web Project (partially school)<br><strong>Group Size:</strong> 1, just me alone<br><strong>Tools Used:</strong> Discord Bot System, JavaScript, Visual Studio Code, GitHub",
         "mywork" : [
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "id" : "npc-system", "name" : "NPC System", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "npcsystem.gif",
+        "id" : "npc-system", "name" : "NPC System", "nameimg" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "npcsystem.gif",
         "intro" : "A small program that allows one to store their NPC's in a city based system, with a clear view on which characters are in that city. It also has the feature to store a stat block, for if you want your players to be able to fight the NPC, this makes it a lot easier. The system was made specifically for D&D, for DM's, by a DM.",
         "desc" : "This system was an idea that came from me and a friend of mine. We're both Dungeon Masters, and were struggling with remembering our NPC's. Every time we made a new NPC we had troubles: 'where do I write down the name, where they can be found, what their stats are, etcetera, and be able to find it back?'<br>Suddenly I thought of a small system in WinForms, which would store all that information locally. It made so much sense, and I immediately got to work. In a few days, I had this small, easy system that would do what I intended, storing info about NPC's.<br><br><strong>Project Duration:</strong> 1 week<br><strong>Project Type:</strong> Personal Project<br><strong>Group Size:</strong> 1, just me alone<br><strong>Tools Used:</strong> Visual Studio, WinForms, C#",
         "mywork" : [
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "id" : "metronome-labyrinth", "name" : "Metronome Labyrinth", "img" : "metronomelabyrinth.png", "imgwidth" : "500", "vid" : "", "gif" : "metronomemaze.gif",
+        "id" : "metronome-labyrinth", "name" : "Metronome Labyrinth", "nameimg" : "", "img" : "metronomelabyrinth.png", "imgwidth" : "500", "vid" : "", "gif" : "metronomemaze.gif",
         "intro" : "A game jam with the theme: Metronome! I thought it would be pretty cool to make a moving labyrinth where the player moves on the beat, like in Crypt of the Necrodancer. It wasn't completely done before time was over, but I was honestly pretty satisfied with how far I got with the limited time.",
         "desc" : "While brainstorming I thought about 'Crypt of the Necrodancer', but how would I make it not a full-on knock-off? But then, suddenly Labyrinth the board game popped in my head, and I thought it would be pretty cool if the labyrinth would change every so often, instead of a player moving it.<br>In the end, I didn't get to completely implement that, it can only push 1 column down. Something that was also not done was my original plan of a randomized labyrinth at the start of the level, as it was too much work. Overall it was a pretty nice project, which I enjoyed.<br><br><strong>Project Duration:</strong> 2 weeks<br><strong>Project Type:</strong> Game Jam (school)<br><strong>Group Size:</strong> 1, just me alone<br><strong>Tools Used:</strong> Unity with C#, GitHub, Visual Studio",
         "mywork" : [
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id" : "small-feesh", "name" : "Small Feesh, Big World.", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "small-feesh.gif",
+        "id" : "small-feesh", "name" : "Small Feesh, Big World.", "nameimg" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "small-feesh.gif",
         "intro" : "A short platformer where you play a small fish, in a big world, or well, sea rather. Make your way through dangerous waters, and watch out for the remains of human presence or other fishes. Because remember, there is always a bigger fish.",
         "desc" : "In this project, we made a short platformer with 2 people. My teammate focused mostly on the enemy, the shaders and the other visuals, so I had to make most of the rest of the game. I made movement, dashing, checkpoints, death handling and did the level design. In the end, I'm pretty happy with how the game turned out, though there are still a couple problems, such as the player being stuck on the ground because it collided with the tilemap.<br><br><strong>Project Duration:</strong> 3 weeks<br><strong>Project Type:</strong> Group Project (school)<br><strong>Group Size:</strong> 2 people, 2 developers<br><strong>Tools Used:</strong> Unity with C#, GitHub, Visual Studio, paint.net",
         "mywork" : [
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "id" : "unboxr", "name" : "Unboxr", "img" : "unboxr.png", "imgwidth" : "", "vid" : "", "gif" : "unboxr.gif",
+        "id" : "unboxr", "name" : "Unboxr", "nameimg" : "", "img" : "unboxr.png", "imgwidth" : "", "vid" : "", "gif" : "unboxr.gif",
         "intro" : "Unboxr is a game where you organize boxes by putting them in the correct spot. It is a short puzzle game I created all on my own.",
         "desc" : "In this project I put together a contract with the teachers, with a strict deadline which I had to follow closely. My grade was dependent on how well I made the described game. So, I had to make exactly what I had written down in the contract, not just what I wanted to make and add.<br><br><strong>Project Duration:</strong> 4 weeks<br><strong>Project Type:</strong> School Project<br><strong>Group Size:</strong> 1, just me alone<br><strong>Tools Used:</strong> Unity with C#, Git using Fork, Visual Studio, Blender",
         "mywork" : [
@@ -89,18 +89,24 @@
         ]
     },
     {
-        "id" : "upg", "name" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "",
-        "intro" : "",
-        "desc" : "<br><br><strong>Project Duration:</strong> <br><strong>Project Type:</strong> <br><strong>Group Size:</strong> <br><strong>Tools Used:</strong> ",
+        "id" : "upg", "name" : "Untitled Paint Game", "nameimg" : "upg-logo.png", "img" : "poster_itch.png", "imgwidth" : "300", "vid" : "https://www.youtube.com/embed/6w58DlJ2b4k?si=fb6AggBjibRT7Wcy", "gif" : "",
+        "intro" : "Enter a street where everything went dark and grey, and now it's up to you to bring the inhabitants color again! Follow the quests on the quest board (or don't), and receive money to spend on new weapons and brushes.<br>A small, relaxing game where everything and anything can be painted.<br><iframe frameborder='0' src='https://itch.io/embed/2724919?linkback=true' width='552' height='167'><a href='https://gerbenboldev.itch.io/untitled-paint-game'>Untitled Paint Game by GerbenBolDev, austinni, JM.0162, Biekie, BlazeDarkwood</a></iframe>",
+        "desc" : "This game was a very complicated one to make, but that is what made it interesting. We had to make the painting mechanic, but also have it working in WebGL. Using WebGL was quite a challenge on itself, and our game idea didn't make it easier. We ended up pulling through some hardships, and created a fine game, made for relaxation.<br>The teamwork in this project didn't go as smooth as we hoped it would have. We had problems with artists vs developers, and this resulted in disagreements during the entire project.<br><br><strong>Project Duration:</strong> 8 weeks<br><strong>Project Type:</strong> School Project<br><strong>Group Size:</strong> 5, 3 artists and 2 developers<br><strong>Tools Used:</strong> Unity with C#, GitHub, Visual Studio",
         "mywork" : [
-            "<strong></strong><br>"
+            "<strong>Shooting</strong><br>I worked on the start of the shooting, and later made a new system for it, spawning in blocks that deleted themselves after a while. We had a lot of problems with this combined with the painting itself. Part of these problems were because of Unity's collision system, but some of them were because of ourselves.",
+            "<strong>Painting</strong><br>We needed a Proof of Concept within the first week, and that was quite the challenge. We had a couple of ideas on how to do the painting, but also had to keep in mind we were going to use WebGL, meaning we couldn't use all of the ideas we had. In the end, we decided to use changing the pixels on textures. We knew this was going to be a very inefficient process, so we would have to optimise it as much as possible. We did a really good job on it, even though we ran into many problems.",
+            "<strong>Shop & Upgrades</strong><br>One of the later things we added was a shop, where the player can buy new weapons, brushes and sprays. It took some time to create the fully working shop, as I got distracted with fixing the actual game halfway through. I'm pretty satisfied with the result of the shop.",
+            "<strong>Main Menu & Ending Screen</strong><br>I made the main menu and ending screen for the game. The UI was easy, but the camera ride was a small challenge. I took inspiration from a script that opened doors in an earlier project, and rewrote it to fit the needs I had now. This system allowed me to change the speed of the camera and the places it would go really easily, which made changing it from the ending screen to also fit the main menu really smooth.",
+            "<strong>Quests</strong><br>In the game is a quest board with the levels, which I made. The pictures of the levels update in real time, meaning if you already started painting and then take a look at the picture, your progress would be shown there. This was done using Unity's Render Textures.",
+            "<strong>VFX & SFX</strong><br>I implemented the sounds and animations the artists made. Animations were tough, because I had never worked with those before, but it went pretty well. We took a while to find the sound effects that we really liked, we found a lot that just didn't quite hit the spot, so we ended up taking those out and then replacing them."
         ]
     },
     {
-        "id" : "", "name" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "",
+        "id" : "", "name" : "", "nameimg" : "", "img" : "", "imgwidth" : "", "vid" : "", "gif" : "",
         "intro" : "",
         "desc" : "<br><br><strong>Project Duration:</strong> <br><strong>Project Type:</strong> <br><strong>Group Size:</strong> <br><strong>Tools Used:</strong> ",
         "mywork" : [
+            "<strong></strong><br>",
             "<strong></strong><br>"
         ]
     }
