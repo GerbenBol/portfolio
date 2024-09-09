@@ -1,10 +1,10 @@
 let project;
 let link;
 
-if (location.href.substring(8, 9) == "gerbenbol")
+//if (location.href.substring(8, 9) == "gerbenbol")
     link = "https://gerbenbol.github.io/portfolio/assets/json/projects.json";
-else
-    link = "../json/projects.json";
+//else
+    //link = "../json/projects.json";
 
 fetch(link)
     .then((r) => r.json())
