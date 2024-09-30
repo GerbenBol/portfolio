@@ -1,10 +1,11 @@
 let project;
 let link;
+console.log(location.href.substring(8,17));
 
-//if (location.href.substring(8, 9) == "gerbenbol")
+if (location.href.substring(8, 17) == "gerbenbol")
     link = "https://gerbenbol.github.io/portfolio/assets/json/projects.json";
-//else
-    //link = "../json/projects.json";
+else
+    link = "../json/projects.json";
 
 fetch(link)
     .then((r) => r.json())
@@ -48,8 +49,8 @@ function FillSite() {
         if (project.img != "") {
             descHTML = "<div class='col-md-6' id='desc-par'>" +
                 "<p class='text-center' id='desc-text'>" + project.desc + "</p>" +
-                "</div><div class='col-md-6'>" +
-                "<div><img src='assets/img/projects/" + project.img + "' width='" + project.imgwidth + "' id='justanimg'></div></div>";
+                "</div><div class='col-md-6'>" + "<div><img src='assets/img/projects/" +
+                project.img + "' width='" + project.imgwidth + "' id='justanimg'></div></div>";
         } else {
             descHTML = "<div class='col-md-2'></div><div class='col-md-8'><p class='text-center' id='desc-text'>" + project.desc + "</p></div>";
         }
