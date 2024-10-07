@@ -6,6 +6,7 @@ if (location.href.substring(8, 17) == "gerbenbol")
     link = "https://gerbenbol.github.io/portfolio/json/projects.json";
 else
     link = "../json/projects.json";
+console.log(link);
 
 fetch(link)
     .then((r) => r.json())
