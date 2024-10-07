@@ -3,7 +3,7 @@ let link;
 console.log(location.href.substring(8,17));
 
 if (location.href.substring(8, 17) == "gerbenbol")
-    link = "https://gerbenbol.github.io/portfolio/assets/projects.json";
+    link = "https://gerbenbol.github.io/portfolio/json/projects.json";
 else
     link = "../json/projects.json";
 
