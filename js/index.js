@@ -16,7 +16,7 @@ else if (mold == mnew)
         age--;
 
 document.getElementById("about-text-here").innerHTML +=
-    "A " + age + " year old Dutch programming student with a passion for games, that's who I, Gerben Bol, am. " +
+    "A " + age + " year old Dutch game dev/ programming student with a passion for games, that's who I, Gerben Bol, am. " +
     "I've played a bunch, from racing games to platformers to rhythm games, which inspired me to create my own, " +
     "to let others experience that enjoyment I get from playing.<br />Aside from school projects, " +
     "I sometimes create small games in my free time, because I enjoy doing it. For example, " +
