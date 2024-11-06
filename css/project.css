@@ -5,3 +5,17 @@
 #justanimg {
     margin-left: 25%;
 }
+
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+    text-align: left;
+}
+
+.centered-button {
+    margin: 25px auto;
+    width: max-content;
+}
