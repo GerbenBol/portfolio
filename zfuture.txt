@@ -2,5 +2,5 @@ what's next:
 - qoute video + img + logo
 - full new about me page (with more, such as hobbies and skills etc.)
 
-metronome labyrinth -> upg
 update portfolio page
+code snippets add
